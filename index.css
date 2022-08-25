@@ -3,6 +3,9 @@
     padding:0;
 }
 
+:root{
+    --bg-color: #0A66C2;
+}
 body{
     background-color: rgb(245 245 245 / 47%);
 }
@@ -29,4 +32,11 @@ img .png{
 .list-group li{
     list-style-type: none;
     font:'Roboto', sans-serif;
+}
+.footer{
+    background-color: var(--bg-color);
+}
+.btn:hover{
+    background-color: white;
+    color: #0A66C2;
 }
