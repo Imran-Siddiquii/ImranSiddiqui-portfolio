@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --bg-color: #0A66C2;
+}
+body{
+    background-color: rgba(218, 214, 214, 0.47);
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+
+}
+.header{
+    background-color: #0A66C2;
+    position: sticky;
+    top:0px;
+}
+img .png{
+    fill: green;
+}
+.navLink  a{
+    display: block;
+    text-decoration: none;
+    color:white;
+    font-size: 19px;
+    font-weight: 500;
+}
+.header a{
+    display: block;
+    text-decoration: none;
+    color:white;
+
+}
+
+.list-group li{
+    list-style-type: none;
+    /* font:'Roboto', sans-serif; */
+}
+.footer{
+    background-color: var(--bg-color);
+}
+.btn:hover{
+    background-color: white;
+    color: #0A66C2;
+}
+.project a , .blog a{
+    color: red;
+    background-color: var(--bg-color);
+}
+
+.project a:hover{
+    background-color: white;
+    color: var(--bg-color) !important;
+    border-color: #0A66C2 !important;
+}
+.blog a:hover{
+    background-color: white;
+    color: var(--bg-color) !important;
+    border-color: #0A66C2 !important;
+}
