@@ -45,7 +45,7 @@ img .png{
     color: #0A66C2;
 }
 .project a , .blog a{
-    color: red;
+    /* color: red; */
     background-color: var(--bg-color);
 }
 
@@ -58,4 +58,17 @@ img .png{
     background-color: white;
     color: var(--bg-color) !important;
     border-color: #0A66C2 !important;
+}
+
+/*project.html csss */
+
+.viewSource{
+    background-color: white!important;
+    color: var(--bg-color) !important;
+    border-color: #0A66C2 !important;
+}
+
+.project .viewSource:hover{
+ background-color: var(--bg-color)!important;
+ color:white!important;   
 }
