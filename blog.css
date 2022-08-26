@@ -39,7 +39,18 @@ body{
     display: inline;
     text-decoration: none;
     color: white;
-    /* align-items: center; */
+}
+
+.blog a{
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    margin: 10px 10px 15px 0px;
+    padding: 6px 15px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid var(--bgWhite); 
+    
 }
 .list-nav{
     text-align: right;
@@ -55,6 +66,7 @@ body{
     font-size: 19px;
     font-weight: 500;
 }
+
 .active-link a{
     font-weight: 600;
 }
