@@ -99,11 +99,13 @@ body{
   
    .technology h2{
        margin: 16px  0px;
+       
     }
-    .technology h5{
-        font-size: 16px;
+    .technology p{
+        font-size: 17px;
         padding-bottom: 10px;
-    }
+        font-family: 'Courier New', Courier, monospace;
+       }
     .project a{
         text-decoration: none;
         font-size: 20px;
@@ -130,17 +132,19 @@ body{
     .project h2{
         margin: 16px 0px;
     }
-    .project h5{
-        font-size: 16px;
+    .project p{
+        font-size: 17px;
         padding-bottom: 10px;
+        font-family: 'Courier New', Courier, monospace;
     }
 
     .blog h2{
         margin: 16px 0px;
     }
-    .blog h5{
-        font-size: 16px;
+    .blog p{
+        font-size: 17px;
         padding-bottom: 10px;
+        font-family: 'Courier New', Courier, monospace;
     }
 
     .footer h2{
