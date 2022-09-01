@@ -83,6 +83,13 @@ body{
     margin-top: 10px;
      font-size: 20px;
      padding-bottom: 5px;
+
+ }
+ .project p{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+     font-size: 17px;
+     padding-bottom: 5px;
  }
  .project a{
      text-decoration: none;
