@@ -39,7 +39,6 @@ body{
     display: inline;
     text-decoration: none;
     color: white;
-    /* align-items: center; */
 }
 .list-nav{
     text-align: right;
@@ -48,7 +47,7 @@ body{
     display: inline-block;
     margin:14px 25px ; 
 }
-.navLink  a{
+.navLink a{
     display: block;
     text-decoration: none;
     color:white;
@@ -58,6 +57,39 @@ body{
 .active-link a{
     font-weight: 600;
 }
+@media(max-width: 780px) {
+    .container-navbar{
+         display: block; 
+         /* border: 1px solid blue; */
+        }
+        
+    .container-navbar p{
+        /* display: block; */
+        margin:0px 0px;
+        padding:7px 25px ;
+        font-size: 25px;
+    }
+    .list-nav{
+             display: inline-block;
+        text-align: left;
+    }
+    .list-nav li{
+        display: inline-block;
+        margin:10px 25px; 
+    }
+    .container-navbar > .brand{
+        width: 100%;
+    }
+    .container-navbar > div{
+        width: 100%;
+    }
+  }
+
+  @media(max-width: 400px) {
+    .list-nav li{
+        margin:14px 15px ; 
+    }
+  }
 
 .hero-section{
     min-width: 80%;

@@ -59,8 +59,41 @@ body{
 .active-link a{
     font-weight: 600;
 }
+@media(max-width: 780px) {
+    .container-navbar{
+         display: block; 
+         /* border: 1px solid blue; */
+        }
+        
+    .container-navbar p{
+        /* display: block; */
+        margin:0px 0px;
+        padding:7px 25px ;
+        font-size: 25px;
+    }
+    .list-nav{
+             display: inline-block;
+        text-align: left;
+    }
+    .list-nav li{
+        display: inline-block;
+        margin:10px 25px; 
+    }
+    .container-navbar > .brand{
+        width: 100%;
+    }
+    .container-navbar > div{
+        width: 100%;
+    }
+  }
+
+  @media(max-width: 400px) {
+    .list-nav li{
+        margin:14px 15px ; 
+    }
+  }
 .header{
-    width:80%;
+    max-width:80%;
     background-color: var(--bgWhite);
     box-shadow: var(--shadow);
     border-radius: var(--radius);
@@ -69,7 +102,7 @@ body{
 }
  
 .project{
-    width: 80%;
+    max-width: 80%;
     background-color: var(--bgWhite);
     box-shadow: var(--shadow);
     border-radius: var(--radius1);
