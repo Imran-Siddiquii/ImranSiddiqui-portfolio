@@ -168,6 +168,9 @@ body{
     background-color: var(--bg-color)!important;
     color:white!important;   
     }
+    .text-danger{
+        color: red;
+    }
 
 /* footer */
 .footer h2{
